@@ -12,6 +12,11 @@ public class Person extends Post {
     }
 
     @Override
+    public String getAddress() {
+        return address;
+    }
+
+    @Override
     public void description() {
         System.out.println("Name: " + this.name + ", surname: " + this.surname
                 + ", address: " + this.address + ", telephone number: " + this.telephoneNumber);

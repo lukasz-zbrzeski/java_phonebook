@@ -10,6 +10,11 @@ public class Company extends Post {
     }
 
     @Override
+    public String getAddress() {
+        return address;
+    }
+
+    @Override
     public void description() {
         System.out.println("Company name: " + this.companyName + ", address: " + this.address
                 + ", telephone number: " + this.telephoneNumber);
